@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CAF89881B8B36220050CB06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF897A1B8B36220050CB06 /* AppDelegate.m */; };
+		3CAF89891B8B36220050CB06 /* CommentImputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF897C1B8B36220050CB06 /* CommentImputView.m */; };
+		3CAF898A1B8B36220050CB06 /* CommentImputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF897D1B8B36220050CB06 /* CommentImputView.xib */; };
+		3CAF898B1B8B36220050CB06 /* CUSFlashLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF897F1B8B36220050CB06 /* CUSFlashLabel.m */; };
+		3CAF898C1B8B36220050CB06 /* GreetLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF89811B8B36220050CB06 /* GreetLoginView.m */; };
+		3CAF898D1B8B36220050CB06 /* GreetLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89821B8B36220050CB06 /* GreetLoginView.xib */; };
+		3CAF898E1B8B36220050CB06 /* GreetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF89841B8B36220050CB06 /* GreetViewController.m */; };
+		3CAF898F1B8B36220050CB06 /* GreetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89851B8B36220050CB06 /* GreetViewController.xib */; };
+		3CAF89A21B8B37000050CB06 /* other_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89911B8B37000050CB06 /* other_login.png */; };
+		3CAF89A31B8B37000050CB06 /* phone_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89921B8B37000050CB06 /* phone_login.png */; };
+		3CAF89C21B8B38B30050CB06 /* w1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89B31B8B38B30050CB06 /* w1.png */; };
+		3CAF89C31B8B38B30050CB06 /* w2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89B41B8B38B30050CB06 /* w2.png */; };
+		3CAF89C41B8B38B30050CB06 /* w3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89B51B8B38B30050CB06 /* w3.png */; };
+		3CAF89C51B8B38B30050CB06 /* w4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89B61B8B38B30050CB06 /* w4.png */; };
+		3CAF89C61B8B38B30050CB06 /* w5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89B71B8B38B30050CB06 /* w5.png */; };
+		3CAF89C71B8B38B30050CB06 /* w6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89B81B8B38B30050CB06 /* w6.png */; };
+		3CAF89C81B8B38B30050CB06 /* w7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89B91B8B38B30050CB06 /* w7.png */; };
+		3CAF89C91B8B38B30050CB06 /* w8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89BA1B8B38B30050CB06 /* w8.png */; };
+		3CAF89CA1B8B38B30050CB06 /* w9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89BB1B8B38B30050CB06 /* w9.png */; };
+		3CAF89CB1B8B38B30050CB06 /* w10.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89BC1B8B38B30050CB06 /* w10.png */; };
+		3CAF89CC1B8B38B30050CB06 /* w11.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89BD1B8B38B30050CB06 /* w11.png */; };
+		3CAF89CD1B8B38B30050CB06 /* w12.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89BE1B8B38B30050CB06 /* w12.png */; };
+		3CAF89CE1B8B38B30050CB06 /* w13.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89BF1B8B38B30050CB06 /* w13.png */; };
+		3CAF89CF1B8B38B30050CB06 /* w14.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89C01B8B38B30050CB06 /* w14.png */; };
+		3CAF89D01B8B38B30050CB06 /* w15.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF89C11B8B38B30050CB06 /* w15.png */; };
+		9B8EBC58171FD73D000F2ABA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8EBC57171FD73D000F2ABA /* UIKit.framework */; };
+		9B8EBC5A171FD73D000F2ABA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8EBC59171FD73D000F2ABA /* Foundation.framework */; };
+		9B8EBC5C171FD73D000F2ABA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8EBC5B171FD73D000F2ABA /* CoreGraphics.framework */; };
+		9B8EBC62171FD73D000F2ABA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B8EBC60171FD73D000F2ABA /* InfoPlist.strings */; };
+		9B8EBC64171FD73D000F2ABA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8EBC63171FD73D000F2ABA /* main.m */; };
+		9B8EBC6A171FD73D000F2ABA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8EBC69171FD73D000F2ABA /* Default.png */; };
+		9B8EBC6C171FD73D000F2ABA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8EBC6B171FD73D000F2ABA /* Default@2x.png */; };
+		9B8EBC6E171FD73D000F2ABA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8EBC6D171FD73D000F2ABA /* Default-568h@2x.png */; };
+		9BA9979E17251C2B00E23AD7 /* Swipe to Select GridView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BA9979C17251C2B00E23AD7 /* Swipe to Select GridView-Info.plist */; };
+		9BA997A217251D5300E23AD7 /* UIView+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA997A117251D5300E23AD7 /* UIView+Positioning.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CAF89791B8B36220050CB06 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CAF897A1B8B36220050CB06 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CAF897B1B8B36220050CB06 /* CommentImputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentImputView.h; sourceTree = "<group>"; };
+		3CAF897C1B8B36220050CB06 /* CommentImputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentImputView.m; sourceTree = "<group>"; };
+		3CAF897D1B8B36220050CB06 /* CommentImputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentImputView.xib; sourceTree = "<group>"; };
+		3CAF897E1B8B36220050CB06 /* CUSFlashLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUSFlashLabel.h; sourceTree = "<group>"; };
+		3CAF897F1B8B36220050CB06 /* CUSFlashLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUSFlashLabel.m; sourceTree = "<group>"; };
+		3CAF89801B8B36220050CB06 /* GreetLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreetLoginView.h; sourceTree = "<group>"; };
+		3CAF89811B8B36220050CB06 /* GreetLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreetLoginView.m; sourceTree = "<group>"; };
+		3CAF89821B8B36220050CB06 /* GreetLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreetLoginView.xib; sourceTree = "<group>"; };
+		3CAF89831B8B36220050CB06 /* GreetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreetViewController.h; sourceTree = "<group>"; };
+		3CAF89841B8B36220050CB06 /* GreetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreetViewController.m; sourceTree = "<group>"; };
+		3CAF89851B8B36220050CB06 /* GreetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreetViewController.xib; sourceTree = "<group>"; };
+		3CAF89911B8B37000050CB06 /* other_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = other_login.png; sourceTree = "<group>"; };
+		3CAF89921B8B37000050CB06 /* phone_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone_login.png; sourceTree = "<group>"; };
+		3CAF89B31B8B38B30050CB06 /* w1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w1.png; sourceTree = "<group>"; };
+		3CAF89B41B8B38B30050CB06 /* w2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w2.png; sourceTree = "<group>"; };
+		3CAF89B51B8B38B30050CB06 /* w3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w3.png; sourceTree = "<group>"; };
+		3CAF89B61B8B38B30050CB06 /* w4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w4.png; sourceTree = "<group>"; };
+		3CAF89B71B8B38B30050CB06 /* w5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w5.png; sourceTree = "<group>"; };
+		3CAF89B81B8B38B30050CB06 /* w6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w6.png; sourceTree = "<group>"; };
+		3CAF89B91B8B38B30050CB06 /* w7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w7.png; sourceTree = "<group>"; };
+		3CAF89BA1B8B38B30050CB06 /* w8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w8.png; sourceTree = "<group>"; };
+		3CAF89BB1B8B38B30050CB06 /* w9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w9.png; sourceTree = "<group>"; };
+		3CAF89BC1B8B38B30050CB06 /* w10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w10.png; sourceTree = "<group>"; };
+		3CAF89BD1B8B38B30050CB06 /* w11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w11.png; sourceTree = "<group>"; };
+		3CAF89BE1B8B38B30050CB06 /* w12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w12.png; sourceTree = "<group>"; };
+		3CAF89BF1B8B38B30050CB06 /* w13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w13.png; sourceTree = "<group>"; };
+		3CAF89C01B8B38B30050CB06 /* w14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w14.png; sourceTree = "<group>"; };
+		3CAF89C11B8B38B30050CB06 /* w15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w15.png; sourceTree = "<group>"; };
+		9B8EBC54171FD73D000F2ABA /* Swipe to Select GridView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swipe to Select GridView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8EBC57171FD73D000F2ABA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B8EBC59171FD73D000F2ABA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B8EBC5B171FD73D000F2ABA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B8EBC61171FD73D000F2ABA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B8EBC63171FD73D000F2ABA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B8EBC69171FD73D000F2ABA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9B8EBC6B171FD73D000F2ABA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9B8EBC6D171FD73D000F2ABA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9BA9979C17251C2B00E23AD7 /* Swipe to Select GridView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Swipe to Select GridView-Info.plist"; sourceTree = "<group>"; };
+		9BA9979D17251C2B00E23AD7 /* Swipe to Select GridView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swipe to Select GridView-Prefix.pch"; sourceTree = "<group>"; };
+		9BA997A017251D5300E23AD7 /* UIView+Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Positioning.h"; sourceTree = "<group>"; };
+		9BA997A117251D5300E23AD7 /* UIView+Positioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Positioning.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B8EBC51171FD73D000F2ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8EBC58171FD73D000F2ABA /* UIKit.framework in Frameworks */,
+				9B8EBC5A171FD73D000F2ABA /* Foundation.framework in Frameworks */,
+				9B8EBC5C171FD73D000F2ABA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B8EBC4B171FD73D000F2ABA = {
+			isa = PBXGroup;
+			children = (
+				9B8EBC5D171FD73D000F2ABA /* Swipe to Select GridView */,
+				9B8EBC56171FD73D000F2ABA /* Frameworks */,
+				9B8EBC55171FD73D000F2ABA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B8EBC55171FD73D000F2ABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B8EBC54171FD73D000F2ABA /* Swipe to Select GridView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B8EBC56171FD73D000F2ABA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B8EBC57171FD73D000F2ABA /* UIKit.framework */,
+				9B8EBC59171FD73D000F2ABA /* Foundation.framework */,
+				9B8EBC5B171FD73D000F2ABA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B8EBC5D171FD73D000F2ABA /* Swipe to Select GridView */ = {
+			isa = PBXGroup;
+			children = (
+				3CAF89791B8B36220050CB06 /* AppDelegate.h */,
+				3CAF897A1B8B36220050CB06 /* AppDelegate.m */,
+				3CAF897B1B8B36220050CB06 /* CommentImputView.h */,
+				3CAF897C1B8B36220050CB06 /* CommentImputView.m */,
+				3CAF897D1B8B36220050CB06 /* CommentImputView.xib */,
+				3CAF897E1B8B36220050CB06 /* CUSFlashLabel.h */,
+				3CAF897F1B8B36220050CB06 /* CUSFlashLabel.m */,
+				3CAF89801B8B36220050CB06 /* GreetLoginView.h */,
+				3CAF89811B8B36220050CB06 /* GreetLoginView.m */,
+				3CAF89821B8B36220050CB06 /* GreetLoginView.xib */,
+				3CAF89831B8B36220050CB06 /* GreetViewController.h */,
+				3CAF89841B8B36220050CB06 /* GreetViewController.m */,
+				3CAF89851B8B36220050CB06 /* GreetViewController.xib */,
+				9BA9979F17251D5300E23AD7 /* Classes */,
+				9B8EBC5E171FD73D000F2ABA /* Supporting Files */,
+				9B8EBC7F171FE1B9000F2ABA /* resources */,
+			);
+			path = "Swipe to Select GridView";
+			sourceTree = "<group>";
+		};
+		9B8EBC5E171FD73D000F2ABA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BA9979C17251C2B00E23AD7 /* Swipe to Select GridView-Info.plist */,
+				9BA9979D17251C2B00E23AD7 /* Swipe to Select GridView-Prefix.pch */,
+				9B8EBC60171FD73D000F2ABA /* InfoPlist.strings */,
+				9B8EBC63171FD73D000F2ABA /* main.m */,
+				9B8EBC69171FD73D000F2ABA /* Default.png */,
+				9B8EBC6B171FD73D000F2ABA /* Default@2x.png */,
+				9B8EBC6D171FD73D000F2ABA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B8EBC7F171FE1B9000F2ABA /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				9BC5D36E1720EAFE00A5883D /* userimages */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		9BA9979F17251D5300E23AD7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9BA997A017251D5300E23AD7 /* UIView+Positioning.h */,
+				9BA997A117251D5300E23AD7 /* UIView+Positioning.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9BC5D36E1720EAFE00A5883D /* userimages */ = {
+			isa = PBXGroup;
+			children = (
+				3CAF89911B8B37000050CB06 /* other_login.png */,
+				3CAF89921B8B37000050CB06 /* phone_login.png */,
+				3CAF89B31B8B38B30050CB06 /* w1.png */,
+				3CAF89B41B8B38B30050CB06 /* w2.png */,
+				3CAF89B51B8B38B30050CB06 /* w3.png */,
+				3CAF89B61B8B38B30050CB06 /* w4.png */,
+				3CAF89B71B8B38B30050CB06 /* w5.png */,
+				3CAF89B81B8B38B30050CB06 /* w6.png */,
+				3CAF89B91B8B38B30050CB06 /* w7.png */,
+				3CAF89BA1B8B38B30050CB06 /* w8.png */,
+				3CAF89BB1B8B38B30050CB06 /* w9.png */,
+				3CAF89BC1B8B38B30050CB06 /* w10.png */,
+				3CAF89BD1B8B38B30050CB06 /* w11.png */,
+				3CAF89BE1B8B38B30050CB06 /* w12.png */,
+				3CAF89BF1B8B38B30050CB06 /* w13.png */,
+				3CAF89C01B8B38B30050CB06 /* w14.png */,
+				3CAF89C11B8B38B30050CB06 /* w15.png */,
+			);
+			path = userimages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B8EBC53171FD73D000F2ABA /* Swipe to Select GridView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B8EBC77171FD73D000F2ABA /* Build configuration list for PBXNativeTarget "Swipe to Select GridView" */;
+			buildPhases = (
+				9B8EBC50171FD73D000F2ABA /* Sources */,
+				9B8EBC51171FD73D000F2ABA /* Frameworks */,
+				9B8EBC52171FD73D000F2ABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swipe to Select GridView";
+			productName = "Swipe to Select GridView";
+			productReference = 9B8EBC54171FD73D000F2ABA /* Swipe to Select GridView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B8EBC4C171FD73D000F2ABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Philip Yu";
+			};
+			buildConfigurationList = 9B8EBC4F171FD73D000F2ABA /* Build configuration list for PBXProject "Swipe to Select GridView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B8EBC4B171FD73D000F2ABA;
+			productRefGroup = 9B8EBC55171FD73D000F2ABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B8EBC53171FD73D000F2ABA /* Swipe to Select GridView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B8EBC52171FD73D000F2ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAF89C41B8B38B30050CB06 /* w3.png in Resources */,
+				3CAF89CA1B8B38B30050CB06 /* w9.png in Resources */,
+				3CAF89A31B8B37000050CB06 /* phone_login.png in Resources */,
+				9B8EBC62171FD73D000F2ABA /* InfoPlist.strings in Resources */,
+				3CAF89CD1B8B38B30050CB06 /* w12.png in Resources */,
+				3CAF89C81B8B38B30050CB06 /* w7.png in Resources */,
+				3CAF89CF1B8B38B30050CB06 /* w14.png in Resources */,
+				9B8EBC6A171FD73D000F2ABA /* Default.png in Resources */,
+				9B8EBC6C171FD73D000F2ABA /* Default@2x.png in Resources */,
+				3CAF89D01B8B38B30050CB06 /* w15.png in Resources */,
+				9B8EBC6E171FD73D000F2ABA /* Default-568h@2x.png in Resources */,
+				3CAF89C71B8B38B30050CB06 /* w6.png in Resources */,
+				3CAF898D1B8B36220050CB06 /* GreetLoginView.xib in Resources */,
+				3CAF898A1B8B36220050CB06 /* CommentImputView.xib in Resources */,
+				3CAF89C21B8B38B30050CB06 /* w1.png in Resources */,
+				3CAF898F1B8B36220050CB06 /* GreetViewController.xib in Resources */,
+				3CAF89C61B8B38B30050CB06 /* w5.png in Resources */,
+				3CAF89CB1B8B38B30050CB06 /* w10.png in Resources */,
+				3CAF89CC1B8B38B30050CB06 /* w11.png in Resources */,
+				3CAF89C51B8B38B30050CB06 /* w4.png in Resources */,
+				3CAF89A21B8B37000050CB06 /* other_login.png in Resources */,
+				3CAF89C31B8B38B30050CB06 /* w2.png in Resources */,
+				3CAF89C91B8B38B30050CB06 /* w8.png in Resources */,
+				9BA9979E17251C2B00E23AD7 /* Swipe to Select GridView-Info.plist in Resources */,
+				3CAF89CE1B8B38B30050CB06 /* w13.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B8EBC50171FD73D000F2ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAF898B1B8B36220050CB06 /* CUSFlashLabel.m in Sources */,
+				9B8EBC64171FD73D000F2ABA /* main.m in Sources */,
+				9BA997A217251D5300E23AD7 /* UIView+Positioning.m in Sources */,
+				3CAF89891B8B36220050CB06 /* CommentImputView.m in Sources */,
+				3CAF898E1B8B36220050CB06 /* GreetViewController.m in Sources */,
+				3CAF898C1B8B36220050CB06 /* GreetLoginView.m in Sources */,
+				3CAF89881B8B36220050CB06 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B8EBC60171FD73D000F2ABA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B8EBC61171FD73D000F2ABA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B8EBC75171FD73D000F2ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B8EBC76171FD73D000F2ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B8EBC78171FD73D000F2ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swipe to Select GridView/Swipe to Select GridView-Prefix.pch";
+				INFOPLIST_FILE = "Swipe to Select GridView/Swipe to Select GridView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B8EBC79171FD73D000F2ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swipe to Select GridView/Swipe to Select GridView-Prefix.pch";
+				INFOPLIST_FILE = "Swipe to Select GridView/Swipe to Select GridView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B8EBC4F171FD73D000F2ABA /* Build configuration list for PBXProject "Swipe to Select GridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8EBC75171FD73D000F2ABA /* Debug */,
+				9B8EBC76171FD73D000F2ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B8EBC77171FD73D000F2ABA /* Build configuration list for PBXNativeTarget "Swipe to Select GridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8EBC78171FD73D000F2ABA /* Debug */,
+				9B8EBC79171FD73D000F2ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B8EBC4C171FD73D000F2ABA /* Project object */;
+}
